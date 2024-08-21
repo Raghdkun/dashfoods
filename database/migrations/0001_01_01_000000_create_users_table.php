@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('sy_phone')->nullable();
             $table->string('ar_name')->nullable();
             $table->integer('position_id')->nullable();
+            $table->integer('group_id')->nullable();
             $table->string('profile_image')->nullable();
             $table->rememberToken();
             $table->timestamps();
